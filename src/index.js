@@ -15,7 +15,7 @@ module.exports = function toReadable (number) {
         if (number % 10 == 0) {
         convertedNumber = `${dozen[number / 10]}`;
         }
-        else convertedNumber = '${dozen[number / 10]} ${digit[number % 10]}`;
+        else convertedNumber = `${dozen[number / 10]} ${digit[number % 10]}`;
     }
     
     // from 100 to 999 
